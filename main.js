@@ -9,3 +9,17 @@ if (document.documentElement.scrollWidth < 768) {
         },
     });
 }
+
+let elem = document.querySelectorAll('.hidden-elem');
+let hidingButton = document.querySelector('.brands__hiding-button');
+
+for (let el of elem) {
+    hidingButton.onclick = function () {
+        el.classList.toggle('hidden-elem');
+    }
+}
+
+// if (hidingButton.onclick === true) {
+//     elem.classList.toggle('hidden-elem')
+// }
+

@@ -67,7 +67,6 @@
         /*transform: matrix(-1, 0, 0, 1, 0, 0);*/
     }
 
-
     .brands {
         display: flex;
         flex-direction: column;
@@ -104,10 +103,20 @@
         background-color: #DDDDDD !important;
         width: 12px !important;
         height: 12px !important;
+        margin-right: 12px !important;
+        margin-left: 0px !important;
+    }
+
+    .swiper-pagination-bullet:last-child {
+        margin-right: 0px !important;
     }
 
     .swiper-pagination-bullet-active {
         background-color: #B5B6BC !important;
+    }
+
+    .brands__hiding-button {
+        display: none;
     }
 
 }
@@ -164,6 +173,18 @@ img, svg {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
+.hidden-elem {
+    display: none;
+}
+
+/*.hidden-elem-hide {*/
+/*    display: none;*/
+/*}*/
+
+/*.hidden-elem-visible {*/
+/*    display: flex;*/
+/*}*/
 
 /*@media (max-width: 768px) {*/
 /*    .brands {*/
