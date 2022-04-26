@@ -185,5 +185,9 @@ img, .brand > svg {
     font-weight: 500;
 }
 
+.brands__hiding-button-hide {
+    display: none;
+}
+
 
 

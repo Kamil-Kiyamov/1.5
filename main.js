@@ -15,6 +15,8 @@ let elems = document.querySelectorAll('.hidden-elem');
 let hidingButton = document.querySelector('.brands__hiding-button');
 let hidingButtonSpan = document.querySelector('brands__hiding-button-span')
 console.log(elem.classList.contains("hidden-elem"))
+let view = document.querySelector('.brands__hiding-button-view')
+let hide = document.querySelector('.brands__hiding-button-hide')
 
 hidingButton.onclick = function () {
     for (let el of elems) {
@@ -24,9 +26,17 @@ hidingButton.onclick = function () {
     //     hidingButtonSpan.innerText = "Скрыть"
     // } else {hidingButtonSpan.innerText = "Показать все"}
 
+    // if (elem.classList.contains("hidden-elem") != true) {
+    //     hidingButton.textContent = "Скрыть"
+    // } else {hidingButton.textContent = "Показать все"}
+
     if (elem.classList.contains("hidden-elem") != true) {
-        hidingButton.textContent = "Скрыть"
-    } else {hidingButton.textContent = "Показать все"}
+        view.style.display = 'flex';
+        hide.style.display = 'none';
+    } else {
+        view.style.display = 'none';
+        hide.style.display = 'flex';
+    }
 }
 
 // if (clicks % 2 === 0) {
