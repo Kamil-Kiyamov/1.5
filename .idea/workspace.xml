@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9aa3f164-c29d-44d0-8619-7a486b62fcf7" name="Changes" comment="работает свайпер">
+    <list default="true" id="9aa3f164-c29d-44d0-8619-7a486b62fcf7" name="Changes" comment="не работает кнопка">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/brands__style.css" beforeDir="false" afterPath="$PROJECT_DIR$/brands__style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +55,7 @@
       <workItem from="1650506150808" duration="7139000" />
       <workItem from="1650542673094" duration="7756000" />
       <workItem from="1650608850892" duration="4909000" />
+      <workItem from="1650653561711" duration="8744000" />
     </task>
     <task id="LOCAL-00001" summary="работает свайпер">
       <created>1650461218544</created>
@@ -68,7 +71,21 @@
       <option name="project" value="LOCAL" />
       <updated>1650543439090</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="не работает кнопка">
+      <created>1650653585814</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1650653585814</updated>
+    </task>
+    <task id="LOCAL-00004" summary="не работает кнопка">
+      <created>1650655343174</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1650655343174</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +105,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="работает свайпер&#10;ш" />
     <MESSAGE value="работает свайпер" />
-    <option name="LAST_COMMIT_MESSAGE" value="работает свайпер" />
+    <MESSAGE value="не работает кнопка" />
+    <option name="LAST_COMMIT_MESSAGE" value="не работает кнопка" />
   </component>
 </project>
