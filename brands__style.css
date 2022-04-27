@@ -110,10 +110,15 @@
         background-color: #B5B6BC !important;
     }
 
-    .brands__hiding-button {
-        display: none;
+    .brands__hiding-button,
+    .brands__hiding-button-view,
+    .brands__hiding-button-hide,
+    .hiding-button__svg  {
+        display: block;
+        visibility: hidden;
     }
-    .hidden-elem {
+
+    .hidden-elem{
         display: flex;
     }
 }
