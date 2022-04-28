@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9aa3f164-c29d-44d0-8619-7a486b62fcf7" name="Changes" comment="svg не пропадаетпри нажатии на кнопку. Надо добавить стрелки для кнопки">
+    <list default="true" id="9aa3f164-c29d-44d0-8619-7a486b62fcf7" name="Changes" comment="размеры блоков с брендами неправильного размера изза того что в стилях свайпера прописаны 100% width и height.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/brands__style.css" beforeDir="false" afterPath="$PROJECT_DIR$/brands__style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +53,8 @@
       <workItem from="1650506150808" duration="7139000" />
       <workItem from="1650542673094" duration="7756000" />
       <workItem from="1650608850892" duration="4909000" />
-      <workItem from="1650653561711" duration="14593000" />
+      <workItem from="1650653561711" duration="14783000" />
+      <workItem from="1651143730529" duration="1298000" />
     </task>
     <task id="LOCAL-00001" summary="работает свайпер">
       <created>1650461218544</created>
@@ -99,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650982274975</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="svg не пропадаетпри нажатии на кнопку. Надо добавить стрелки для кнопки">
+      <created>1651071638420</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1651071638420</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +128,7 @@
     <MESSAGE value="не работает кнопка" />
     <MESSAGE value="пропадает svg при нажатии на кнопку." />
     <MESSAGE value="svg не пропадаетпри нажатии на кнопку. Надо добавить стрелки для кнопки" />
-    <option name="LAST_COMMIT_MESSAGE" value="svg не пропадаетпри нажатии на кнопку. Надо добавить стрелки для кнопки" />
+    <MESSAGE value="размеры блоков с брендами неправильного размера изза того что в стилях свайпера прописаны 100% width и height." />
+    <option name="LAST_COMMIT_MESSAGE" value="размеры блоков с брендами неправильного размера изза того что в стилях свайпера прописаны 100% width и height." />
   </component>
 </project>

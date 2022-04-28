@@ -32,14 +32,14 @@
     height: 56px;
     align-items: center;
     margin-bottom: 24px;
-    background-color: #f8f8f8;
     border-top: 1px solid #D9FFF5;
+    background: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%);
 }
 
 .header-brands > p {
     margin-left: 32px;
     font-size: 16px;
-    background-color: #f8f8f8;
+    background: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%);
 }
 
 .brands {
@@ -79,9 +79,9 @@
         width: 120%;
     }
 
-    .brands-container__item {
-        height: 72px;
-        width: 240px;
+    .swiper-slide {
+        height: 72px; !important;
+        width: 240px; !important;
     }
 
     .brands-container__item:last-child {
