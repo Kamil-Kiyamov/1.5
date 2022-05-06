@@ -33,10 +33,14 @@ hidingButton.onclick = function () {
         view.style.display = 'none';
         hide.style.display = 'flex';
         svg.style.transform = 'rotate(180deg)'
+        svg.style.transition = '.15s'
+        
     } else {
         view.style.display = 'flex';
         hide.style.display = 'none';
         svg.style.transform = 'rotate(0deg)'
+        svg.style.transition = '.15s'
+        
     }
 
 
